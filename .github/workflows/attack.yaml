@@ -2,8 +2,8 @@ name: Attack
 
 on:
   pull_request:
-    paths:
-      - "test"
+    branches:
+      - attack
 
 jobs:
   attack:
