@@ -3,7 +3,7 @@ name: Attack
 on:
   pull_request:
     branches:
-      - attack
+      - main
 
 jobs:
   attack:
